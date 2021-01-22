@@ -1,0 +1,23 @@
+1.Inicio
+2.  funcion principal()
+3.       k = obetnerNumero()
+4.       cadena = obetnerResiduo(k)
+5.       Escribir cadena      
+6.  fin funcion principal      
+7.  funcion obetnerNumero()       
+8.       k, [i-0]
+9.       Escrbir "Ingrese un numero: " 
+10.       leer k
+11.       return k
+12.  fin funcion obetnerNumero       
+13.  funcion obetnerResiduo(k)      
+14.       k1, [i-0]
+15.       Para(i<--0; k > 0; i++)
+16.           k1 <-- k MOD 10
+17.           cadena <-- "%d * 10 elevado a la potencia %d\n", k1, i
+18.           k = k / 10
+19.       Fin_Para
+20.       return cadena
+21.  fin funcion obetnerResiduo  
+22.Fin    
+      
